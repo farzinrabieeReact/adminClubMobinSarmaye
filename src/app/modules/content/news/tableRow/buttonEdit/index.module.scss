@@ -1,0 +1,16 @@
+.filter{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    // justify-content: space-between;
+
+    .TextFieldSelect{
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .TextField{
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+}

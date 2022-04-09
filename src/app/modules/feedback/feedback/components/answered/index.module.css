@@ -1,0 +1,115 @@
+.btnRegister{
+  width: 125px;
+  height: 30px;
+  color: #0c0cf5;
+  background: #C7DDF2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.notPm{
+  width: 25px;
+  height: 25px;
+  background: #ff5f00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.btnAnswer{
+  width: 125px;
+  height: 30px;
+  color: #07a01b;
+  background: #D5EEDB;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.FieldRow{
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+}
+.HeaderText{
+  font-size: 16px;
+  font-weight: 800;
+}
+.btnSend{
+  padding: 5px 30px;
+  background: #ff5f00;
+  border-radius: 5px;
+  color: white;
+
+}
+.profileChat{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #3390EC;
+  margin-left: 5px;
+
+
+
+}
+.cardChat{
+  width: 50%;
+  min-height: 50px;
+  background: #0073e9;
+  border-radius: 8px;
+  position: relative;
+  color: white;
+  padding: 15px;
+  margin-bottom: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.cardChat span{
+  display: inline-block;
+  position:absolute;
+  border: 20px solid ;
+  border-color: #0073e9 transparent transparent transparent;
+  transform: rotate(-225deg);
+  top: -20px;
+  right: -14px;
+  color: white;
+
+
+}
+.cardChat2{
+  width: 50%;
+  min-height: 50px;
+  background: #bbb9b9;
+  border-radius: 8px;
+  position: relative;
+  color: white;
+  padding: 15px;
+  margin-bottom: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.cardChat2 span{
+  display: inline-block;
+  position:absolute;
+    border: 20px solid ;
+  border-color: #bbb9b9 transparent transparent transparent;
+  transform: rotate(225deg);
+  top: -20px;
+  left: -14px;
+
+
+}
+.TrTable:hover{
+  background: whitesmoke;
+  cursor: pointer;
+}
+/*.more{*/
+/*  padding: 5px 20px;*/
+/*  background: ;*/
+/*}*/

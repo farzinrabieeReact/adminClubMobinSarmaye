@@ -1,0 +1,16 @@
+.filter{
+    width: 100%;
+    height: auto;
+
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+
+    .inputs{
+        width: 96%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

@@ -1,0 +1,56 @@
+.card{
+  width: 40%;
+  height: auto;
+  margin: auto;
+
+
+  .info{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    min-height: 400px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 20px 0;
+
+    .title{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .Purple-square{
+        width: 15px;
+        height: 15px;
+        background-color: rgb(73,75,116);
+        display: block;
+        margin-left:15px;
+      }
+    }
+
+    .list{
+      list-style: none;
+
+      li{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .blue-square{
+          width: 10px;
+          height: 10px;
+          background-color: #3699FF;
+          display: block;
+          margin-left: 8px;
+        }
+
+        p{
+          margin-right: 5px;
+        }
+      }
+    }
+
+  }
+}

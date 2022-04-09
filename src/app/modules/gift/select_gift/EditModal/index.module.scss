@@ -1,0 +1,28 @@
+.card{
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10;
+
+    .modal{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        .cardImges{
+            width: 30%;
+        }
+    
+        .inputs{
+            width: 70%;
+            max-height: 740px;
+        }
+    
+    }
+
+    .btns{
+        padding-bottom: 15px;
+        text-align: left;
+        width: 95%;
+    }
+}

@@ -1,0 +1,29 @@
+.header{
+    width: 98%;
+    height: 50px;
+    position: relative;
+    background-color: transparent !important;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    // padding: 0px 30px;
+
+    // .button{
+    //     display: flex;
+    //     width: 40%;
+    // }
+    .grid{
+        display: flex; 
+    }
+    .icon{
+        display: flex;
+        // justify-content: space-around;
+        width: 7%;
+        
+        svg{
+            cursor: pointer;;
+          }
+    }
+}

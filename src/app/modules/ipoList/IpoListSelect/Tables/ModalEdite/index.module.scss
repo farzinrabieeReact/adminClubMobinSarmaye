@@ -1,0 +1,32 @@
+.modal{
+    width: 45%;
+    min-height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+
+    .card-inputs-file{
+        border: 1px solid rgba(0,0,0,0.1);
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .btns{
+        width: 99.5%;
+        text-align: left;
+    }
+
+    .img{
+        max-height: 85px;
+    }
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,64 @@
+.modal{
+    width: 50%;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+
+    .continears{
+        width: 100%;
+        height: auto;
+        margin: auto;
+
+        .textEditor{
+            width: 100%;
+            height: 200px;
+        }
+
+        .grid{
+            width: 100%;
+            margin-top: 20px;
+
+            .icons{
+                width: auto;
+                display: flex;
+                justify-content:flex-start;
+                align-items: center;
+                font-size: 16px;
+            }
+            .list{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                max-height: 300px;
+                overflow-y: auto;
+                height: auto;
+
+                .questions{
+                    width: 48%;
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .textarea{
+                width: 100%;
+                resize: none;
+                border-radius : 8px;
+                margin-bottom: 15px;
+                min-height: 150px;
+                padding: 10px;
+                box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+                border: none;
+            }
+        }
+    }
+
+    .btns{
+        width: 99.5%;
+        text-align: left;
+    }
+}

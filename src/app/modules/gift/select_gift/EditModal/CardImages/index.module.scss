@@ -1,0 +1,32 @@
+
+.grid{
+    width: 300px;
+    margin: 10px;
+
+    .defualtImages{
+        min-height: 250px;
+    }
+
+    .card-inputs-file{
+        border: 1px solid rgba(0,0,0,0.5);
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .btns{
+        width: 99.5%;
+        text-align: left;
+    }
+
+    .img{
+        max-height: 400px;
+        width: 100%;
+        
+    }
+}
+

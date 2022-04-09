@@ -1,0 +1,37 @@
+.filter{
+    width: 96.5%;
+    height: auto;
+    padding: 20px 0px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+    .grid{
+        display: flex;
+        justify-items: flex-start;
+        align-items: center;
+    }
+    .btns{
+        width: 98%;
+        margin: auto;
+        text-align: left;
+
+        .btnsBlack{
+            width: 150px;
+            height: 40px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            position: relative;
+            border: 1px solid #3699FF;
+            color: #3699FF;
+            background-color: white;
+            &:hover{
+                color: white;
+                background-color: #3699FF;
+            }
+        }
+    }
+}

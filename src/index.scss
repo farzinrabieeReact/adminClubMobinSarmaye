@@ -1,0 +1,313 @@
+
+@font-face {
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.eot");
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.Web");
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.woff");
+  src: url("/media/fonts/IRANSansWeb/IRANSansWeb.woff2");
+
+  font-family: "iransans";
+}
+
+
+body,
+input,
+Button,
+.Toastify__toast ,
+table
+{
+  font-family: "iransans" !important;
+}
+
+.ck-content{
+  min-height: 150px !important;
+}
+
+.MuiBackdrop-root{
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.btnsRed,
+.btnsGreen,
+.btnsYellow,
+.btnsBlack,
+.btnsBlue,
+.btnsGray
+{
+    width: auto;
+    padding: 0px 15px;
+    height: 23px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 5px;
+    white-space: nowrap;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 0 5px rgb(216, 216, 216);
+    cursor: pointer;
+    &:hover{
+        color: white !important;
+    }
+}
+.scrollNoneAuto::-webkit-scrollbar{
+
+display: none;
+}
+.scrollNoneAuto{
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.btnsRed{
+    border: 1px solid #F64E60;
+    color: #F64E60;
+        &:hover{
+        background-color:#F64E60 ;
+        }
+}
+.btnsGreen{
+    border: 1px solid #1BC5BD !important;
+    color:#1BC5BD !important;
+    &:hover{
+        background-color:#1BC5BD !important;
+    }
+}
+.btnsYellow{
+    border: 1px solid #FFA800;
+    color:#FFA800 ;
+
+    &:hover{
+        background-color: #FFA800;
+    }
+}
+.btnsBlack{
+    border: 1px solid #212121;
+    &:hover{
+        background-color:#212121 ;
+    }
+}
+.btnsBlue{
+    border: 1px solid #3699FF;
+    color:#3699FF ;
+    &:hover{
+        background-color:#3699FF ;
+    }  
+}
+.btnsGray{
+    border: 1px solid #707070;
+    color:rgb(68, 68, 68) ;
+    &:hover{
+        background-color:#F5F5F9 ;
+        color:rgb(68, 68, 68) !important;
+    }  
+}
+
+.btnsRedBackground,
+.btnsGreenBackground,
+.btnsYellowBackground,
+.btnsBlackBackground,
+.btnsBlueBackground
+{
+    width: auto;
+    padding: 0px 25px;
+    height: 35px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15px;
+    color:white;
+    cursor: pointer;
+    &:hover{
+        background-color: white !important;
+    }
+}
+
+.btnsRedBackground{
+    border: 1px solid #F64E60;
+    background-color:#F64E60 ;
+        &:hover{
+        color:#F64E60 ;
+        }
+}
+.btnsGreenBackground{
+    border: 1px solid #1BC5BD !important;
+    background-color:#1BC5BD !important;
+    &:hover{
+        color:#1BC5BD !important;
+    }
+}
+.btnsYellowBackground{
+    border: 1px solid #FFA800;
+    background-color: #FFA800;
+    &:hover{
+        color:#FFA800 ;
+    }
+}
+.btnsBlackBackground{
+    border: 1px solid #212121;
+    background-color:#212121 ;
+    &:hover{
+        color: #212121;
+    }
+}
+.btnsBlueBackground{
+    border: 1px solid #3699FF;
+    background-color:#3699FF ;
+    &:hover{
+        color:#3699FF ;
+    }  
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .btnIcon{
+      cursor: pointer !important;
+      font-size: 25px !important;
+      margin-right: 20px !important;
+  }
+
+  
+  .disabledItems {
+    pointer-events: none !important;
+    color: #ccc !important;
+    border-color: #ccc !important;
+}
+
+.MuiTablePagination-caption{
+    direction: ltr !important;
+}
+
+.boxCustom {
+    height: 75vh;
+    border-radius: 10px;
+    width: 96.2%;
+    background-color: white;
+    margin: 20px auto 0;
+    padding: 20px;
+    overflow: auto;
+    direction: rtl
+}
+  //.danjerInnerHtml ul{
+  //    list-style: none;
+  //
+  //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnsRedNew,
+.btnsGreenNew,
+.btnsYellowNew,
+.btnsBlackNew,
+.btnsBlueNew,
+.btnsGrayNew
+{
+    width: 86px;
+    // padding: 0px 15px;
+    height: 23px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 5px;
+    white-space: nowrap;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 0 5px rgb(216, 216, 216);
+    cursor: pointer;
+    &:hover{
+        color: white !important;
+    }
+}
+
+.btnsRedNew{
+    border: 1px solid #F64E60;
+    color: #F64E60;
+        &:hover{
+        background-color:#F64E60 ;
+        }
+}
+.btnsGreenNew{
+    border: 1px solid #1BC5BD !important;
+    color:#1BC5BD !important;
+    &:hover{
+        background-color:#1BC5BD !important;
+    }
+}
+.btnsYellowNew{
+    border: 1px solid #FFA800;
+    color:#FFA800 ;
+
+    &:hover{
+        background-color: #FFA800;
+    }
+}
+.btnsBlackNew{
+    border: 1px solid #212121;
+    &:hover{
+        background-color:#212121 ;
+    }
+}
+.btnsBlueNew{
+    border: 1px solid #3699FF;
+    color:#3699FF ;
+    &:hover{
+        background-color:#3699FF ;
+    }  
+}
+.btnsGrayNew{
+    border: 1px solid #707070;
+    color:rgb(68, 68, 68) ;
+    &:hover{
+        background-color:#F5F5F9 ;
+        color:rgb(68, 68, 68) !important;
+    }  
+}
+
+
+
+
+.btnsBlueNewBig
+{
+    width: 176px;
+    // padding: 0px 15px;
+    height: 23px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 5px;
+    white-space: nowrap;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 0 5px rgb(216, 216, 216);
+    cursor: pointer;
+    &:hover{
+        color: white !important;
+    }
+}
+.btnsBlueNewBig{
+    border: 1px solid #3699FF;
+    color:#3699FF ;
+    &:hover{
+        background-color:#3699FF ;
+    }  
+}
+
+iframe{
+    display: none;
+}
